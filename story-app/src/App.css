@@ -1,0 +1,93 @@
+header{
+    background-color: #121127;
+    padding: 20px 0px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-bottom: 30px
+}
+
+header h5{
+    font-weight: 500;
+    font-size: 22px;
+    color: aliceblue;
+}
+
+.listing{
+    margin-top: 40px
+}
+
+.listBox {
+    background: #FFFFFF;
+    border: 1px solid #EFEFEF;
+    box-sizing: border-box;
+    box-shadow: 3px 4px 14px rgba(0, 0, 0, 0.11);
+    border-radius: 11px;
+    padding: 40px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+.noList{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 40px;
+    margin-top: 30px;
+    background: #efecf1;
+    border: 1px dashed #ccc1c1;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+.noList p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+}
+.roundIconEdit{
+    display: inline-flex;
+    background: #53A451;
+    padding: 10px;
+    width: 40px;
+    height: 40px;
+    margin-left: 20px;
+    border-radius: 50%;
+}
+.roundIconDelete{
+    display: inline-flex;
+    background: #bb3703;
+    padding: 10px;
+    width: 40px;
+    height: 40px;
+    margin-left: 20px;
+    border-radius: 50%;
+}
+.roundIconEdit:hover{
+    opacity: 0.9;
+    cursor: pointer;
+}
+.roundIconDelete:hover{
+    opacity: 0.9;
+    cursor: pointer;
+}
+small{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+
+    color: #2F7EF7;
+}
+a{
+    color: #000;
+}
+a:hover{
+    text-decoration: none;
+}
+.noBg{
+    background: none;
+    outline: none;
+    border: none;
+    display: contents;
+}
